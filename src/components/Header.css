@@ -1,0 +1,14 @@
+.me{
+    background-color: rgb(144, 60, 222);
+    padding: 10px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;   
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .me {
+      padding: 8px 16px; 
+    }
+  }

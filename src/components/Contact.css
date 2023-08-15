@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 25rem;
+}
+
+
+
+.footer-text {
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    .footer-container {
+      padding-top: 35rem; /* Adjust padding for mobile */
+    }
+    
+    .footer-text {
+      font-size: 16px; /* Adjust font size for mobile */
+    }
+    
+    .footer-text:hover {
+      font-size: 16px; /* Maintain the same hover font size on mobile */
+    }
+  }

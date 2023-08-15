@@ -1,0 +1,330 @@
+ /* body{
+    background-color: white;
+     background-color: rgb(255 187 187); 
+}
+
+
+.box{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color: white
+  }
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 75vh;
+  }
+  
+  .year {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .middle {
+    align-self: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  
+  .year:hover {
+    background-color: #2980b9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    */
+
+
+
+/* From here */
+
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+.box {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* row-gap: 20px; */
+  column-gap: 30vh;
+
+
+}
+.year {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  
+}
+
+.year:hover {
+  background-color: #2980b9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px; 
+    gap: 10px; 
+  }
+
+  .year {
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
