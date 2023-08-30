@@ -32,8 +32,9 @@ function SignIn() {
 
   return (
     <div className='main'>
+      
       <div className='sign-in'>
-        <h1 className='head'>Sign In</h1>
+        <h1 className='head'>Welcome! To the Sign In </h1>
         {isAuthenticated ? (
           <>
             <p>You are already signed in.</p>
@@ -48,4 +49,3 @@ function SignIn() {
 }
 
 export default SignIn;
-
