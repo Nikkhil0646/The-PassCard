@@ -24,6 +24,7 @@
   color: white;
   background-color: #188a86;
   text-align: center;
+  cursor: pointer;
 
   @media (max-width: 600px) {
       width: 100%;
@@ -32,6 +33,9 @@
       text-align: center;
 
   }
+  
+}
+.boxxx :hover{
   
 }
   .club-list {
