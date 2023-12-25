@@ -1,0 +1,10 @@
+.mine{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #000000;
+
+}
