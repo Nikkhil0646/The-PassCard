@@ -33,6 +33,33 @@ const Link = () => {
         <li>UI-UX</li>
       </ul>
     </div>
+    <div className='boxxx'>
+    <h2>Machine Learing</h2>
+      <ul className='club-list'>
+        <li>Kotlin</li>
+        <li>Stdio</li>
+        <li>APIs</li>
+        <li>UI-UX</li>
+      </ul>
+    </div>
+    <div className='boxxx'>
+    <h2>Machine Learing</h2>
+      <ul className='club-list'>
+        <li>Kotlin</li>
+        <li>Stdio</li>
+        <li>APIs</li>
+        <li>UI-UX</li>
+      </ul>
+    </div>
+    <div className='boxxx'>
+    <h2>Machine Learing</h2>
+      <ul className='club-list'>
+        <li>Kotlin</li>
+        <li>Stdio</li>
+        <li>APIs</li>
+        <li>UI-UX</li>
+      </ul>
+    </div>
     </div>
     </div>
    

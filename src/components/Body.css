@@ -143,19 +143,32 @@ a {
   display: block;
 }
 
+
 @media screen and (max-width: 600px) {
   .container {
-    padding: 10px; 
-    gap: 10px; 
+   
+    gap: 10px; /* Adjust the gap as needed */
+    justify-content: center; /* Center the items */
+    margin-right: 2vh 
+  }
+
+  .dropdown-content {
+    width: 100%; /* Full width for smaller screens */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
   }
 
   .year {
-    padding: 8px;
+    padding: 8px; /* Adjust padding for smaller screens */
   }
 }
 
-
-
+/* Add another media query for even smaller screens */
+@media screen and (max-width: 390px) {
+  .year {
+    padding: 6px; /* Further adjust padding for even smaller screens */
+  }
+}
 
 
 
